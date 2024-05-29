@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-brandfetch-demo-client-side-solution",
+    "id": "d89229aa-8511-4777-ada5-41a4b40212cb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-brandfetch-demo description"
+      },
+      "longDescription": {
+        "default": "spfx-brandfetch-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-brandfetch-demo Feature",
+        "description": "The feature that activates elements of the spfx-brandfetch-demo solution.",
+        "id": "e302ebe0-ce12-4f9b-a9f8-8ec69ecf6a1d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-brandfetch-demo.sppkg"
+  }
+}
