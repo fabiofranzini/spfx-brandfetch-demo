@@ -13,7 +13,8 @@ export default function WebPartTheme(props: IWebPartThemeProps): JSX.Element {
 
   const onSearchClick = React.useCallback(async () => {
     try {
-      const result = await fetchBrandInfo(domainToSearch, "zeCZFvJL1oijPwkjuP/w9CDKjFXZ4fQGvPpX2+Gi/Bk=");
+      // change the API key to a valid one
+      const result = await fetchBrandInfo(domainToSearch, "XXXXXXXXXX");
 
       if ('message' in result) {
         // result is of type ErrorResponse
